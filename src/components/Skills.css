@@ -1,0 +1,70 @@
+/* Section base */
+.skills-section {
+  padding-bottom: 80px;
+  color: #ffffff;
+}
+
+/* Skill badge button */
+.skill-btn {
+  background-color: rgb(243, 1, 75);
+  color: white;
+  border-radius: 50px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  cursor: default;
+}
+
+/* Skill box */
+.skill-box {
+  margin-top: 30px;
+}
+
+/* Skill header */
+.skill-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+/* Progress container */
+.progress {
+  height: 10px;
+  background-color: #1e1e2a;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* Progress bar */
+.progress-bar {
+  height: 100%;
+  background-color: rgb(243, 1, 75);
+  border-radius: 20px;
+  animation: loadSkill 1.5s ease forwards;
+}
+
+/* Animation */
+@keyframes loadSkill {
+  from {
+    width: 0;
+  }
+}
+
+/* Download CV button */
+.cv-btn {
+  background-color: rgb(243, 1, 75);
+  color: white;
+  padding: 12px 40px;
+  font-size: 18px;
+  border-radius: 50px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.cv-btn:hover {
+  background-color: #ffffff;
+  color: rgb(243, 1, 75);
+  transform: translateY(-4px);
+}

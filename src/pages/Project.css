@@ -1,0 +1,89 @@
+/* Section base */
+.projects-section {
+  padding: 100px 0;
+  background-color: #0f0f14;
+  color: #ffffff;
+}
+
+/* Button */
+.project-btn {
+  background-color: rgb(243, 1, 75);
+  color: #fff;
+  border-radius: 50px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 10px 40px;
+  cursor: default;
+}
+
+/* Card */
+.project-card {
+  background: #151520;
+  border-radius: 20px;
+  padding: 30px;
+  height: 100%;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Hover */
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* Title */
+.project-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+/* Description */
+.project-card p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #dddddd;
+}
+
+/* Tech stack */
+.tech-stack {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tech-stack span {
+  background: rgba(243, 1, 75, 0.15);
+  color: rgb(243, 1, 75);
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* Links */
+.project-links {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.project-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: color 0.3s ease;
+}
+
+.project-links a:hover {
+  color: rgb(243, 1, 75);
+}

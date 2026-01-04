@@ -1,0 +1,75 @@
+/* Section base */
+.education-section {
+  padding: 100px 0;
+  background-color: #0f0f14;
+  color: #ffffff;
+}
+
+/* Button */
+.edu-btn {
+  background-color: rgb(243, 1, 75);
+  color: #fff;
+  border-radius: 50px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 10px 40px;
+  cursor: default;
+}
+
+/* Heading */
+.education-section h1 {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Card */
+.edu-card {
+  background: #151520;
+  border-radius: 20px;
+  padding: 30px;
+  height: 100%;
+  position: relative;
+  transition: all 0.3s ease;
+  border-left: 4px solid rgb(243, 1, 75);
+}
+
+/* Hover */
+.edu-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* Year badge */
+.edu-year {
+  position: absolute;
+  top: -15px;
+  left: 20px;
+  background-color: rgb(243, 1, 75);
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Text */
+.edu-card h2 {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.edu-card h5 {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #cfcfcf;
+}
+
+.edu-card p {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.edu-card span {
+  color: rgb(243, 1, 75);
+  font-weight: 600;
+}

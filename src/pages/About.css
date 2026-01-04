@@ -1,0 +1,78 @@
+/* Section base */
+.about-section {
+  padding: 100px 0;
+  background-color: #0f0f14;
+  color: #ffffff;
+}
+
+/* Button */
+.about-btn {
+  background-color: rgb(243, 1, 75);
+  color: #fff;
+  border-radius: 50px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 10px 40px;
+  cursor: default;
+}
+
+/* Headings */
+.about-section h1 {
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.about-section h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Text */
+.about-text {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #dddddd;
+  margin-bottom: 15px;
+}
+
+/* Info box */
+.about-info {
+  background: #151520;
+  border-radius: 20px;
+  padding: 30px;
+  border-left: 4px solid rgb(243, 1, 75);
+}
+
+/* Info rows */
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.info-row span:first-child {
+  color: #aaaaaa;
+}
+
+.info-row span:last-child {
+  font-weight: 500;
+}
+
+/* CV button */
+.about-cv {
+  background-color: rgb(243, 1, 75);
+  color: white;
+  padding: 12px 40px;
+  font-size: 18px;
+  border-radius: 50px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.about-cv:hover {
+  background-color: #ffffff;
+  color: rgb(243, 1, 75);
+  transform: translateY(-4px);
+}

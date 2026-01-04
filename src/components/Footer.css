@@ -1,0 +1,85 @@
+.footer {
+  background-color: #0f0f14;
+  color: #dddddd;
+  padding: 60px 0 20px;
+  margin-top: 100px;
+}
+
+/* Brand */
+.footer-brand {
+  color: #ffffff;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+/* Text */
+.footer-text {
+  margin-top: 15px;
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+/* Titles */
+.footer-title {
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* Links */
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #cccccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: rgb(243, 1, 75);
+}
+
+/* Social icons */
+.footer-social {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.footer-social a {
+  font-size: 22px;
+  color: #cccccc;
+  transition: all 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: rgb(243, 1, 75);
+  transform: translateY(-4px);
+}
+
+/* Divider */
+.footer hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(
+    to right,
+    transparent,
+    rgba(255, 255, 255, 0.3),
+    transparent
+  );
+  margin: 40px 0 20px;
+}
+
+/* Bottom */
+.footer-bottom {
+  text-align: center;
+  font-size: 14px;
+  color: #aaaaaa;
+}

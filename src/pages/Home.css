@@ -1,0 +1,59 @@
+/* Home layout */
+.home-container {
+  padding-top: 60px;
+}
+
+/* Hero title */
+.hero-title {
+  line-height: 1.1;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.home-container h1 {
+  margin-bottom: 15px;
+}
+
+/* Floating corner image */
+#image {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 80px;
+  opacity: 0.6;
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+#image:hover {
+  opacity: 1;
+  filter: grayscale(0);
+  transform: scale(1.1);
+}
+
+/* Skull icon */
+.skull-icon {
+  margin-left: 8px;
+}
+
+/* Profile image */
+.profile-img {
+  max-width: 85%;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+  animation: float 4s ease-in-out infinite;
+}
+
+/* Floating animation */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

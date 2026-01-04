@@ -1,0 +1,86 @@
+/* Section base */
+.contact-section {
+  padding: 100px 0;
+  background-color: #0f0f14;
+  color: #ffffff;
+}
+
+/* Button */
+.contact-btn {
+  background-color: rgb(243, 1, 75);
+  color: #fff;
+  border-radius: 50px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 10px 40px;
+  cursor: default;
+}
+
+/* Subtitle */
+.contact-sub {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #cccccc;
+}
+
+/* Info box */
+.contact-info {
+  background: #151520;
+  border-radius: 20px;
+  padding: 30px;
+  height: 100%;
+}
+
+/* Info item */
+.info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.info-icon {
+  font-size: 24px;
+  color: rgb(243, 1, 75);
+  margin-right: 15px;
+}
+
+.info-item h5 {
+  margin-bottom: 5px;
+}
+
+/* Form */
+.contact-form {
+  background: #151520;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+/* Inputs */
+.form-control {
+  background-color: #0f0f14;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+}
+
+.form-control:focus {
+  background-color: #0f0f14;
+  color: #ffffff;
+  border-color: rgb(243, 1, 75);
+  box-shadow: none;
+}
+
+/* Submit button */
+.submit-btn {
+  background-color: rgb(243, 1, 75);
+  color: #ffffff;
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #ffffff;
+  color: rgb(243, 1, 75);
+  transform: translateY(-3px);
+}
