@@ -1,4 +1,8 @@
 import React from 'react'
+<<<<<<< HEAD
+=======
+import './App.css'
+>>>>>>> f0df78611700f2c702af030632efd1915854aefe
 import { HashRouter, Routes, Route } from 'react-router-dom'
 
 import Navbar from './components/Navbar'
